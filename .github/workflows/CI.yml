@@ -17,12 +17,15 @@ jobs:
           - '2.6'
           - '2.7'
           - '3.0'
+          - '3.1'
+          - '3.2'
           - head
           - jruby
         activerecord:
           - '5.2'
           - '6.0'
           - '6.1'
+          - '7.0'
           - head
         exclude:
           - activerecord: '5.2'
